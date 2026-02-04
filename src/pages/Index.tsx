@@ -7,43 +7,31 @@ import StudyPlannerTodo from '@/components/StudyPlannerTodo';
 import Footer from '@/components/Footer';
 import { Clock, BookOpen, CheckSquare } from 'lucide-react';
 
-// Exam data
+// Exam data with IST timezone target dates
 const exams = [
   {
     examName: 'TNPSC Group 1',
-    examDate: new Date('2025-06-15'),
+    examDate: new Date('2026-09-06T00:00:00+05:30'),
     category: 'tnpsc' as const,
     description: 'Tamil Nadu Civil Services Exam - Prelims',
   },
   {
     examName: 'TNPSC Group 2',
-    examDate: new Date('2025-04-20'),
+    examDate: new Date('2026-10-25T00:00:00+05:30'),
     category: 'tnpsc' as const,
     description: 'Combined Civil Services Exam II',
   },
   {
     examName: 'TNPSC Group 2A',
-    examDate: new Date('2025-05-10'),
+    examDate: new Date('2026-10-25T00:00:00+05:30'),
     category: 'tnpsc' as const,
     description: 'Non-Interview Posts Exam',
   },
   {
     examName: 'TNPSC Group 4',
-    examDate: new Date('2025-03-25'),
+    examDate: new Date('2026-12-20T00:00:00+05:30'),
     category: 'tnpsc' as const,
     description: 'VAO & Other Posts Exam',
-  },
-  {
-    examName: 'RRB NTPC',
-    examDate: new Date('2025-07-12'),
-    category: 'rrb' as const,
-    description: 'Non-Technical Popular Categories',
-  },
-  {
-    examName: 'RRB Group D',
-    examDate: new Date('2025-08-05'),
-    category: 'rrb' as const,
-    description: 'Level 1 Posts Recruitment',
   },
 ];
 
