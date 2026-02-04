@@ -38,46 +38,46 @@ const exams = [
 // Syllabus data
 const syllabusData = [
   {
-    title: 'Group 1 Complete Syllabus',
+    title: 'TNPSC Group 1 Syllabus',
     category: 'tnpsc' as const,
     subjects: ['General Studies', 'Aptitude & Mental Ability', 'Indian Polity', 'Indian Economy', 'History & Culture', 'Geography'],
     totalTopics: 156,
-    pdfUrl: '#',
+    pdfUrl: '/pdfs/tnpsc-group1-syllabus.pdf',
   },
   {
-    title: 'Group 2 & 2A Syllabus',
+    title: 'TNPSC Group 2 Syllabus',
     category: 'tnpsc' as const,
     subjects: ['General Tamil/English', 'General Studies', 'Aptitude', 'Indian Constitution', 'Economics'],
     totalTopics: 98,
-    pdfUrl: '#',
+    pdfUrl: '/pdfs/tnpsc-group2-syllabus.pdf',
   },
   {
-    title: 'Group 4 VAO Syllabus',
+    title: 'TNPSC Group 2A Syllabus',
+    category: 'tnpsc' as const,
+    subjects: ['General Tamil/English', 'General Studies', 'Aptitude', 'Indian Constitution', 'Economics'],
+    totalTopics: 98,
+    pdfUrl: '/pdfs/tnpsc-group2a-syllabus.pdf',
+  },
+  {
+    title: 'TNPSC Group 4 Syllabus',
     category: 'tnpsc' as const,
     subjects: ['General Studies', 'Aptitude', 'Tamil Language', 'Current Affairs'],
     totalTopics: 72,
-    pdfUrl: '#',
+    pdfUrl: '/pdfs/tnpsc-group4-syllabus.pdf',
   },
   {
     title: 'RRB NTPC Syllabus',
     category: 'rrb' as const,
     subjects: ['Mathematics', 'General Intelligence', 'General Awareness', 'General Science'],
     totalTopics: 85,
-    pdfUrl: '#',
+    pdfUrl: '/pdfs/rrb-ntpc-syllabus.pdf',
   },
   {
     title: 'RRB Group D Syllabus',
     category: 'rrb' as const,
     subjects: ['Mathematics', 'General Science', 'General Awareness', 'Reasoning'],
     totalTopics: 64,
-    pdfUrl: '#',
-  },
-  {
-    title: 'Current Affairs Monthly',
-    category: 'tnpsc' as const,
-    subjects: ['National News', 'International Affairs', 'Sports', 'Awards', 'Science & Tech'],
-    totalTopics: 200,
-    pdfUrl: '#',
+    pdfUrl: '/pdfs/rrb-groupd-syllabus.pdf',
   },
 ];
 
